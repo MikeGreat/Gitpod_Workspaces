@@ -15,13 +15,13 @@
 
 - [`Python Build Tools`](python_build_tools/Dockerfile) 
 
-![Docker Image Size (tag)](https://img.shields.io/docker/image-size/crazyuploader/kernel_build/latest) 
-![Docker Pulls](https://img.shields.io/docker/pulls/crazyuploader/kernel_build)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/crazyuploader/python_build_tools/latest) 
+![Docker Pulls](https://img.shields.io/docker/pulls/crazyuploader/python_build_tools)
 
 - [`Java Build Tools`](java_build_tools/Dockerfile)
 
-![Docker Image Size (tag)](https://img.shields.io/docker/image-size/crazyuploader/kernel_build/latest) 
-![Docker Pulls](https://img.shields.io/docker/pulls/crazyuploader/kernel_build)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/crazyuploader/java_build_tools/latest) 
+![Docker Pulls](https://img.shields.io/docker/pulls/crazyuploader/java_build_tools)
 
 - [`Android SDK`](android_sdk/Dockerfile)
 

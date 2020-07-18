@@ -1,39 +1,54 @@
-**Gitpod Workspaces**
+# Docker-Builder
+
+[![CircleCI](https://circleci.com/gh/crazyuploader/Docker-Builder/tree/master.svg?style=svg)](https://circleci.com/gh/crazyuploader/Docker-Builder/tree/master)
+[![Build Status](https://travis-ci.com/crazyuploader/Docker-Builder.svg?branch=master)](https://travis-ci.com/crazyuploader/Docker-Builder) 
+[![Build Status](https://crazyuploader.semaphoreci.com/badges/Docker-Builder.svg)](https://crazyuploader.semaphoreci.com/projects/Docker-Builder) 
+[![Docker Image CI](https://github.com/crazyuploader/Docker-Builder/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/crazyuploader/Docker-Builder/actions) 
+[![CodeFactor](https://www.codefactor.io/repository/github/crazyuploader/docker-builder/badge/master)](https://www.codefactor.io/repository/github/crazyuploader/docker-builder/overview/master)
+
 ---
-Ready to code Gitpod Workspace(s) for quick access.
 
-- Python
+- [`Kernel Builder`](kernel_build/Dockerfile)
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/crazyuploader/Gitpod_Workspaces/tree/python)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/crazyuploader/kernel_build/latest) 
+![Docker Pulls](https://img.shields.io/docker/pulls/crazyuploader/kernel_build)
 
-- Java
+- [`Python Build Tools`](python_build_tools/Dockerfile) 
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/crazyuploader/Gitpod_Workspaces/tree/java)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/crazyuploader/kernel_build/latest) 
+![Docker Pulls](https://img.shields.io/docker/pulls/crazyuploader/kernel_build)
 
-- C++
+- [`Java Build Tools`](java_build_tools/Dockerfile)
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/crazyuploader/Gitpod_Workspaces/tree/cpp)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/crazyuploader/kernel_build/latest) 
+![Docker Pulls](https://img.shields.io/docker/pulls/crazyuploader/kernel_build)
 
-- Minimal Ubuntu
+- [`Android SDK`](android_sdk/Dockerfile)
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/crazyuploader/Gitpod_Workspaces/tree/minimal_ubuntu)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/crazyuploader/android_sdk/latest) 
+![Docker Pulls](https://img.shields.io/docker/pulls/crazyuploader/android_sdk)
 
-- Hugo Site Generator
+- [`Android SDK with Flutter`](android_sdk_flutter/Dockerfile)
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/crazyuploader/Gitpod_Workspaces/tree/hugo)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/crazyuploader/android_sdk_flutter/latest) 
+![Docker Pulls](https://img.shields.io/docker/pulls/crazyuploader/android_sdk_flutter)
 
-- NodeJS
+- [`C++ Build Tools`](cpp_build_tools/Dockerfile)
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/crazyuploader/Gitpod_Workspaces/tree/nodejs)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/crazyuploader/cpp_build_tools/latest) 
+![Docker Pulls](https://img.shields.io/docker/pulls/crazyuploader/cpp_build_tools)
 
-- Android Development
+- [`NodeJS Build Tools`](node_build_tools/Dockerfile)
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/crazyuploader/Gitpod_Workspaces/tree/android)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/crazyuploader/node_build_tools/latest) 
+![Docker Pulls](https://img.shields.io/docker/pulls/crazyuploader/node_build_tools)
 
-- Android Development with Flutter
+- [`Minimal Ubuntu`](minimal_ubuntu/Dockerfile)
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/crazyuploader/Gitpod_Workspaces/tree/android_flutter)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/crazyuploader/minimal_ubuntu/latest) 
+![Docker Pulls](https://img.shields.io/docker/pulls/crazyuploader/minimal_ubuntu)
 
-- Kernel Related (Not ideal for Kernel building)
+- [`Hugo Site Generator`](minimal_ubuntu/Dockerfile)
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/crazyuploader/Gitpod_Workspaces/tree/kernel)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/crazyuploader/hugo/latest) 
+![Docker Pulls](https://img.shields.io/docker/pulls/crazyuploader/hugo)
